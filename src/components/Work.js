@@ -2,7 +2,7 @@ import React from 'react'
 
 const Work = () => {
   return (
-    <div className="work" id="workAnchor">
+    <div className="work" id="projects">
     
       <div className="container">
         <div className="workHeader">

@@ -4,9 +4,20 @@
   box-sizing: border-box;
  }
 
+ html {
+	scroll-behavior: smooth;
+}
+
  body {
    font-family: "Poppins", sans-serif;
  }
+
+ @media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
  .header {
    width: 100%;
    height: 100vh;
@@ -77,7 +88,7 @@
 .contact {
   float: left;
   width: 50%;
-  padding: 20px;
+  padding: 100px 0;
 }
 
 /* About */
@@ -88,6 +99,7 @@
   height: 100vh;
   width: 100%;
   color: #fff;
+  margin-left: 5%
 }
 .header-ul {
   list-style-type: none;
@@ -165,8 +177,6 @@
   text-align: center;
   padding: 5em 0 10em 0;
   height: 92.5vh;
-  margin: auto;
-  position: relative;
 }
 
 .form {
@@ -227,5 +237,11 @@ textarea::placeholder {
 }
 
 .lets-talk {
-  font-size: 50px
+  font-size: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.justifyCenter {
+  justify-content: center;
 }
