@@ -13,12 +13,12 @@ const About = () => {
             <div className="headerContent">
               <div className="headerSection">
                 <ul className="header-ul">
-                  <Link to="www.linkedin.com/in/pauljsyi">
+                  <li>
                     <FaLinkedin href="#contactAnchor"/>
-                  </Link>
-                  <Link>
+                  </li>
+                  <li>
                     <GoMarkGithub href="https://github.com/Pauljsyi"/>
-                  </Link>
+                  </li>
                 </ul>
                 <h1>Hi, I'm Paul</h1>
                 <p>Aspiring, self-taught Software Engineer</p>
