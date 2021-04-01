@@ -7,14 +7,13 @@ const Navbar = () => {
         <div className="navbarContainer">
           <ul className="navLeft">
             <div className="navLogo">
-             <img src="**" alt="logo"/>
+             <h1>PAUL J.S. YI</h1>
             </div>
           </ul>
           <ul className="navbarRight">
-            <li><a href="*">Home</a></li>
-            <li><a href="*">About</a></li>
-            <li><a href="*">Experience</a></li>
-            <li><a href="*">Contact</a></li>
+            <li><a href="#aboutAnchor">About</a></li>
+            <li><a href="#workAnchor">Projects</a></li>
+            <li><a href="#contactAnchor">Contact</a></li>
           </ul>
         </div>
       </div>

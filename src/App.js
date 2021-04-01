@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Navbar from './components/Navbar'
+import About from './components/About';
+import Navbar from './components/Navbar';
+import Work from './components/Work';
+import Contact from './components/Contact'
 
 function App() {
   return (
     <div>
-      <Header />
+      <About />
       <Navbar />
+      <Work />
+      <Contact />
     </div>
   );
 }
