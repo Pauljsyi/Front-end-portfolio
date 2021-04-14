@@ -93,6 +93,24 @@
 
 /* About */
 
+
+.social-items {
+  display: flex;
+ margin-left: 20px;
+}
+
+
+.linkedin-social {
+  padding: 20px;
+  color: white;
+}
+
+.github-social {
+  padding: 20px;
+  color: white;
+}
+
+
 .headerContent {
   display: flex;
   align-items: center;

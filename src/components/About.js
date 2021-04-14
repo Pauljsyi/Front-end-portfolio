@@ -1,7 +1,8 @@
 import React from 'react'
-import { FaLinkedin } from 'react-icons/fa';
-import { GoMarkGithub } from 'react-icons/go';
-import { Link, BrowserRouter as Router } from 'react-router-dom';
+
+import { Link, BrowserRouter as Router } from 
+'react-router-dom';
+import Social from './Social'
 
 const About = () => {
   return (
@@ -12,14 +13,7 @@ const About = () => {
           <div className="col-6">
             <div className="headerContent">
               <div className="headerSection">
-                <ul className="header-ul">
-                  <li>
-                    <FaLinkedin href="#contactAnchor"/>
-                  </li>
-                  <li>
-                    <GoMarkGithub href="https://github.com/Pauljsyi"/>
-                  </li>
-                </ul>
+                  <Social />
                 <h1>Hi, I'm Paul</h1>
                 <p>Aspiring, self-taught Software Engineer</p>
               </div>
