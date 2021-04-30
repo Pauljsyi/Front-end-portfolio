@@ -14,8 +14,8 @@ const About = () => {
             <div className="headerContent">
               <div className="headerSection">
                   <Social />
-                <h1>Hi, I'm Paul</h1>
-                <p>Aspiring, self-taught Software Engineer</p>
+                <h1 className="intro">PAUL YI</h1>
+                <p className="web-dev">Web Developer</p>
               </div>
               
             </div>
